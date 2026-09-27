@@ -66,6 +66,9 @@ pip install -r requirements.txt
 
 # the app
 streamlit run h5ad_viewer.py -- --data-dir /path/to/data/raw --submission-dir /path/to/your/predictions
+ 
+ # or you can use the module form, which is more robust to path issues
+python -m streamlit run h5ad_viewer.py
 
 # the check, headless
 python h5ad_viewer.py --compare my_prediction.h5ad /path/to/data/raw/E9.5.h5ad
