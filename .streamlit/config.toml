@@ -1,0 +1,3 @@
+[server]
+# Released stages and T1 predictions exceed Streamlit's 200 MB default upload limit.
+maxUploadSize = 2000
